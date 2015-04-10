@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "declaration": false,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noLib": false,
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "files": [
+        "./js/api.d.ts",
+        "./js/lodash-sum.d.ts",
+        "./js/main.ts",
+        "./js/models/project-task.ts",
+        "./js/models/project.ts",
+        "./js/projects-view-model.ts",
+        "./typings/knockout.mapping/knockout.mapping.d.ts",
+        "./typings/knockout/knockout.d.ts",
+        "./typings/lodash/lodash.d.ts"
+    ]
+}
